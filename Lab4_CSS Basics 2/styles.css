@@ -1,0 +1,30 @@
+/* 
+inline elements: span, img, strong, em, a and more
+block-level elements: p, div, heading, ul, li and more
+*/
+span {
+    /* change inline -> block */
+    /* display: block; */
+    margin: 20px;
+    padding: 20px;
+
+}
+div {
+    /* change block -> inline */
+    /* display: inline; */
+    border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
+}
+/* 
+inline elements:
+margin只在左右
+padding四面都有但可能会重合（上下）
+
+block-level elements:
+margin四面都有上下可重合
+padding四面都有
+
+display: inline-block;
+上面这个方法会让inline element的margin如同block-level element一样有四面
+*/
