@@ -12,10 +12,12 @@
 <body>
     <!-- Header Section with Navigation -->
     <header>
+        
         <div class="logo">
             <!-- <h1>CrustGo</h1> -->
             <a href="#banner"><img src="img/logo.png" alt="CrustGo logo"></a>
         </div>
+
         <nav>
             <ul>
                 <li><a href="#menu">MENU</a></li>
@@ -23,6 +25,7 @@
                 <li><a href="#contact">CONTACT US</a></li>
             </ul>
         </nav>
+
     </header>
 
     <section id="banner">
@@ -39,8 +42,10 @@
 
     <!-- Menu Section -->
     <section id="menu">
+        
         <h2>Our Menu</h2>
-        <div>
+
+        <div class="menu">
 
             <!-- Food Item 1 -->
             <div class="food-item">
@@ -97,7 +102,7 @@
                 <img src="img/bbq.jpg" alt="BBQ Chicken Pizza" />
                 <div class="food-info">
                     <h3>BBQ Chicken Pizza</h3>
-                    <p>From $5.50</p>
+                    <p>From $15.50</p>
                     <button>Add to Cart</button>
                 </div>
             </div>
@@ -118,8 +123,29 @@
         <p>
             If you have any questions or need assistance, feel free to reach out to us.
         </p>
-        <p>Email: <a href="mailto:info@crustgo.com">info@crustgo.com</a></p>
-        <p>Phone: +123-456-7890</p>
+        <div class="contact">
+            <form class="contact-form">
+                <input type="text" id="name" name="name" required placeholder="Name">
+                <input type="email" id="email" name="email" required placeholder="Email">
+                <textarea id="message" name="message" required placeholder="Leave your message here..." rows="5"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#banner">Home</a></li>
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#promotion">PROMOTIONS</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                </ul>
+            </nav>
+            <div class="contact-us">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <p>Email: <a href="mailto:info@crustgo.com">info@crustgo.com</a></p>
+                <p>Phone: +123-456-7890</p>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
