@@ -1,12 +1,9 @@
-# HTML-CSS-tutorial
-
-# Project: Food Ordering Page - HTML + CSS
+# HTML-CSS-Tutorial and Project: Food Ordering Page
 
 Welcome to the **Food Ordering Page** project! This website provides a user-friendly platform for browsing a food menu, viewing promotions, and contacting the restaurant. It includes four main sections: **Home**, **Menu**, **Promotion**, and **Contact Us**. This project is built using HTML and CSS, and serves as a simple, responsive template for a food ordering page.
 
 ## Table of Contents
-- [HTML-CSS-tutorial](#html-css-tutorial)
-- [Project: Food Ordering Page - HTML + CSS](#project-food-ordering-page---html--css)
+- [HTML-CSS-Tutorial and Project: Food Ordering Page](#html-css-tutorial-and-project-food-ordering-page)
   - [Table of Contents](#table-of-contents)
   - [Project Overview](#project-overview)
   - [Features](#features)
